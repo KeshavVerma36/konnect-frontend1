@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:4000"); // Connect to the backend server
+const socket = io("https://konnect-backend-1.onrender.com/"); // Connect to the backend server
 
 export default function Home() {
   const [username, setUsername] = useState("");
